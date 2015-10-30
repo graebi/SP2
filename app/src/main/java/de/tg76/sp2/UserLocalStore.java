@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Created by adm_toto on 04/10/2015.
+ * Created by Thorsten on 04/10/2015.
  * This class stores user data into a file locally
  */
 public class UserLocalStore {
@@ -50,10 +50,7 @@ public class UserLocalStore {
     //Function if user is logged in or out to application
     public boolean getUserLoggedIn(){
         //Set default loggedIn value to false
-        if(userLocalDatabase.getBoolean("loggedIn",false) == true) return true;
-        else{
-            return false;
-        }
+        return userLocalDatabase.getBoolean("loggedIn", false);
     }
     //Function to clear user data on SharedPreferences
     public void clearUserData(){
