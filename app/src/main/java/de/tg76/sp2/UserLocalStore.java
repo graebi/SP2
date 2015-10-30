@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Created by Thorsten on 04/10/2015. 
+ * Created by Thorsten on 04/10/2015.
  * This class stores user data into a file locally
  */
 public class UserLocalStore {
