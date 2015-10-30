@@ -1,10 +1,13 @@
 package de.tg76.sp2;
 
+/**
+ * Created by Thorsten on 04/10/2015.
+ * This class xxxx
+ */
+
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
