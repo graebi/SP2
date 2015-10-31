@@ -2,7 +2,7 @@ package de.tg76.sp2;
 
 /**
  * Created by Thorsten on 04/10/2015.
- * This class xxxx
+ * This class muss ich noch reinschreiben
  */
 
 import android.content.Intent;
